@@ -17,6 +17,7 @@ export default function Details(props) {
         <div className="border3px">
           <h3>Lekcja: </h3>
           <p>{props.data.lekcja}</p>
+          <p>{props.data.typ}</p>
           {props.data.kiedy && <p style={{margin: '1em 0'}}>{props.data.kiedy.dataPL}</p>}
         </div>
         <div className="border3px">

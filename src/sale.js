@@ -27,7 +27,7 @@ const sale = {
   E6: {
     budynek: 'Wydział Elektrotechniki i Informatyki',
     ulica: 'Nadbystrzycka 38A',
-    nawigacja: 'none'
+    nawigacja: 'Parter, boczny korytarz przy wejściu B, ostatnie drzwi, schodami w dół, lewo, lewo'
   },
   H24: {
     budynek: 'CoE ASPPECT',

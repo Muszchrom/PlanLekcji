@@ -139,6 +139,20 @@ const planLekcji = {
       stop: "15:30"
     },
     {
+      lekcja: "Matematyka, fekultet",
+      kiedy: {
+        dataPL: "3 listopada",
+        type: {
+          dzien: [10, 3]
+        }
+      },
+      typ: "fekultet",
+      wykladowca: "dr M.Kubalińska",
+      sala: "E402",
+      start: "16:00",
+      stop: "18:15"
+    },
+    {
       lekcja: "Wprowadzenie na rynek pracy i do działalności gospodarczej",
       kiedy: {
         dataPL: "Tygodnie 1-10",
@@ -170,6 +184,20 @@ const planLekcji = {
       start: "16:00",
       stop: "18:15"
     },
+    {
+      lekcja: "Prawa i obowiązki studenta",
+      kiedy: {
+        dataPL: "14 października",
+        type: {
+          dzien: [9, 14]
+        }
+      },
+      typ: "Szkolenie",
+      wykladowca: "?",
+      sala: "E301",
+      start: "16:30",
+      stop: "?"
+    }
   ],
   piatek: [
     {

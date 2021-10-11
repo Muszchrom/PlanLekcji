@@ -118,19 +118,21 @@ header {
 }
 
 .details {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  min-height: 100%;
+  bottom: 0;
   background: var(--react-background-dark);
   z-index: 99;
   padding: 2em;
 }
 
-.details div {
+.details-inner {
   max-width: 800px;
   margin: 0 auto;
+  overflow: scroll;
+  height: 100%;
 }
 .border3px {
   border-bottom: 3px solid var(--react-blue);
@@ -182,7 +184,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   bottom: 2em;
   left: 2em;
 }

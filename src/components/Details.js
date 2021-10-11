@@ -12,7 +12,7 @@ export default function Details(props) {
 
   return (
     <div className="details">
-      <div>
+      <div className="details-inner">
         <button className="close-button" onClick={props.exit}></button>
         <div className="border3px">
           <h3>Lekcja: </h3>

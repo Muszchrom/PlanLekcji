@@ -131,7 +131,7 @@ header {
 .details-inner {
   max-width: 800px;
   margin: 0 auto;
-  overflow: scroll;
+  overflow-y: auto;
   height: 100%;
 }
 .border3px {

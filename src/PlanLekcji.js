@@ -205,7 +205,7 @@ const planLekcji = {
       typ: "ćwiczenia",
       wykladowca: "dr M. Kubalińska",
       sala: "E402",
-      start: "08:15",
+      start: "08:30",
       stop: "10:00"
     },
     {
